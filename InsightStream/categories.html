@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories - InsightStream</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">InsightStream</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="categories.html" class="active">Categories</a></li>
+      <li><a href="trending.html">Trending</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Categories Section -->
+  <section class="categories-section">
+    <h1>Explore News by Category</h1>
+
+    <div class="category-buttons">
+      <button onclick="showCategory('tech')">Technology</button>
+      <button onclick="showCategory('sports')">Sports</button>
+      <button onclick="showCategory('politics')">Politics</button>
+      <button onclick="showCategory('health')">Health</button>
+    </div>
+
+    <div id="category-news" class="news-grid">
+      <p class="placeholder">Select a category to view articles.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 InsightStream. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
